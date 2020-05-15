@@ -30,5 +30,10 @@ namespace Events
         {
             MessageBox.Show("You clicked me at " + e.GetPosition(this).ToString());
         }
+
+        internal void OpenFile(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
